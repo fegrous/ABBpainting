@@ -4,6 +4,10 @@ G-code → ABB RobotStudio RAPID 转换工具(版本 1.2)
 
 从 `ABBpainting.exe`(PyInstaller 打包, Python 3.10 + Tkinter)反编译还原的源码。
 
+## 下载(Windows 可直接运行)
+
+- **ABBpainting.exe v1.2.0**: [https://github.com/fegrous/ABBpainting/releases/download/v1.2.0/ABBpainting.exe](https://github.com/fegrous/ABBpainting/releases/download/v1.2.0/ABBpainting.exe)
+
 ## 功能
 
 - 弹窗输入工件四角 Z 轴值(**四点调零**,可跳过)
