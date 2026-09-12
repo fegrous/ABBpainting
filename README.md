@@ -48,7 +48,7 @@ ABBpainting 就是补这个差：先量四角高度，再按位置插值出每�
 
 👉 **[下载 ABBpainting.exe v1.2.0](https://github.com/fegrous/ABBpainting/releases/download/v1.2.0/ABBpainting.exe)**
 
-仓库根目录也放了一份同样的 `ABBpainting.exe`，克隆下来即可运行。
+仓库里只保留源码，二进制统一走 release 分发，避免重复占用体积。
 
 ---
 
@@ -213,7 +213,6 @@ pyinstaller -F -w --name ABBpainting ABBpainting.py
 ```
 ABBpainting/
 ├── ABBpainting.py        # v1.2 源码（从 exe 反编译还原，Windows 专用）
-├── ABBpainting.exe       # v1.2 可直接运行的 Windows 程序
 ├── assets/
 │   ├── murasame.png      # 线稿素材（描摹源）
 │   └── cy.png            # 上色稿参考
